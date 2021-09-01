@@ -96,7 +96,6 @@ local function createMenuPanes()
     RMenu.Add(cat, sub("rent"), RageUI.CreateSubMenu(RMenu:Get(cat, sub("main")), title, desc, nil, nil, "pablo", "black"))
     RMenu:Get(cat, sub("rent")).Closed = function()
     end
-
 end
 
 
